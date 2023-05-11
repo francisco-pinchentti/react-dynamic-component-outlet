@@ -80,7 +80,12 @@ function MyComponent() {
 
 ## See also
 
+Cool projects with similar goals
+
 https://github.com/MomenSherif/react-html-string
+
 https://github.com/remarkablemark/html-react-parser
+
 https://github.com/remarkablemark/react-dom-core/tree/master/packages/react-property
+
 https://github.com/hatashiro/react-attr-converter
