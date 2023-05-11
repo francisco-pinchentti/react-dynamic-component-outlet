@@ -6,14 +6,12 @@ export type DynamicComponentOutletProps = {
     customParsers?: DynamicComponentParserEntry[];
 }
 
-function DynamicComponentOutlet(
+export function DynamicComponentOutlet(
     {
         htmlString,
         customParsers,
     }: DynamicComponentOutletProps
 ) {
-
-    // @todo useMemo()
 
     return (
         <>
