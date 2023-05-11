@@ -62,7 +62,7 @@ function MyComponent() {
             component: <SupperButtonComponent onClick={fnClick} />
         },
         {
-            matcher: (node: Element) => node.outerHtml.test(/^tooltip/i),
+            matcher: (node: Element) => /^<tooltip/i.test(node.outerHTML),
             component: (node: Element) => <MyTooltip text={node.textContent} />
         },
         {
