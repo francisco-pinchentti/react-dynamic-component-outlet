@@ -1,13 +1,13 @@
 {
   "name": "react-dynamic-component-outlet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "type": "module",
   "scripts": {
     "rollup": "rollup -c"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Francisco Pinchentti",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
